@@ -17,6 +17,10 @@ class Stack {
     this.stack = []; 
   }
 
+  push(element) {
+    return this.stack.push(element);
+  } 
+
   pop() {
     return this.stack.pop();
   }
